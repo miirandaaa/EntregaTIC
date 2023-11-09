@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="paginaAeropuerto" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="um.edu.uy.ui.RegistrarAeropuerto">
+   <children>
+      <Label layoutX="205.0" layoutY="33.0" text="Registro Aeropuerto">
+         <font>
+            <Font size="21.0" />
+         </font></Label>
+      <Button fx:id="botonRegistrarAeropuerto" layoutX="268.0" layoutY="334.0" mnemonicParsing="false" onAction="#registrarAeropuerto" text="Registrar" />
+      <TextField fx:id="nombreAeropuerto" layoutX="225.0" layoutY="88.0" promptText="Nombre" />
+      <TextField fx:id="codigoIATA" layoutX="225.0" layoutY="127.0" promptText="Código IATA" />
+      <TextField fx:id="paisAeropuerto" layoutX="225.0" layoutY="167.0" promptText="Pais" />
+      <TextField fx:id="numeroGates" layoutX="225.0" layoutY="246.0" promptText="Numero de Gates" />
+      <TextField fx:id="numeroCheckIn" layoutX="225.0" layoutY="284.0" promptText="Numero de Check-in" />
+      <TextField fx:id="ciudadAeropuerto" layoutX="225.0" layoutY="206.0" promptText="Ciudad" />
+   </children>
+</AnchorPane>
